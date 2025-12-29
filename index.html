@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Chart.js Bar Chart</title>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Sales Overview</h2>
+
+    <div class="buttons">
+      <button data-range="today">Today</button>
+      <button data-range="week">This Week</button>
+      <button data-range="month">This Month</button>
+    </div>
+
+    <canvas id="myChart"></canvas>
+  </div>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
